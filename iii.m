@@ -1,16 +1,16 @@
 clc;
 clear;
 
-be=40;                                        
-an=[be];                                      
+xk=40;                                        
+an=[xk];                                      
 in=1;                                          
-while be~=1                         
-   if mod(be,2)==0                          
-       be=be/2;                 
+while xk~=1                         
+   if mod(xk,2)==0                          
+       xk=xk/2;                 
    else                           
-       be=3*be+1;
+       xk=3*xk+1;
    end
-   an(in+1) = be;                     
+   an(in+1) = xk;                     
    in=in+1;                        
 end
 disp(an)                                    
